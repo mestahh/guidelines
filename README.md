@@ -29,10 +29,9 @@ This document contains best practices, guides and descriptions about what we, at
   * Write fast unit tests.
   * Practice TDD, remove duplication ruthlessly.
   * A well organized, readable test code is as important as production code.
+  * For our projects, use snake case in test method names, without `test` prefix
 
 ## SQL
 
   * SQL commands are in capital case, column names, identifiers are non-capital.
   * When getting the objects from a resultset, use the column name instead of the column number.
-
-
